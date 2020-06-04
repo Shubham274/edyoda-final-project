@@ -20,16 +20,6 @@ function closePopUp(e) {
 closeBtn.addEventListener('click', closePopUp);
 bigWrapper.addEventListener('click', closePopUp);
 
-// var menuItems = document.getElementsByClassName('w-nav-menu')[0];
-// var menuToggleIcon = document.getElementById('menu-toggle-icon');
-
-// menuToggleIcon.onclick = function() {
-// 	menuItems.style.display = 'flex';
-// 	menuItems.style.zIndex = 10;
-// 	menuItems.height = '356 px';
-// 	menuItems.opacity = '1';
-// 	menuItems.overflow = 'visible';
-// };
 var navBtn = document.getElementsByClassName('w-nav-button')[0];
 
 navBtn.onclick = function() {
